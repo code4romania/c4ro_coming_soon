@@ -29,10 +29,10 @@ body {
   position: relative;
   width: 100%;
 }
-@media (min-width: 480px) {
-  .manifesto {
-    padding: 50px 5%;
-  }
+
+.banner-img {
+  max-width: 100%;
+  height: auto;
 }
 
 .brand,
