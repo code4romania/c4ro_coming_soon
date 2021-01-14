@@ -1,0 +1,46 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400&subset=latin,latin-ext&display=swap);
+a {
+  color: #fbf73c;
+  text-decoration: none;
+}
+body {
+  font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: linear-gradient(
+      -44deg,
+      #62caaf,
+      #7e79ee 22%,
+      #3023ae 60%,
+      #0c054e
+    )
+    no-repeat;
+  color: #fff;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin: 0;
+  height: 100vh;
+}
+.underline img {
+  vertical-align: bottom;
+}
+.underline span {
+  border-bottom: 1px solid #fbf73c;
+}
+.underline:hover span {
+  border-bottom-color: #cdc904;
+}
+.manifesto {
+  box-sizing: border-box;
+  max-width: 700px;
+  position: relative;
+  margin: 30px;
+  padding: 50px 30px;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.brand,
+.contact {
+  display: inline-block;
+}
+.contact {
+  margin: 10px 0 0;
+}

@@ -1,0 +1,44 @@
+@import url(http://fonts.googleapis.com/css?family=Cardo:400&subset=latin,latin-ext&display=swap);
+a,
+body {
+  color: #333;
+}
+a {
+  text-decoration: none;
+}
+body {
+  background: #fff;
+  border-left: 10px solid #333;
+  font-family: Cardo, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 120%;
+  margin: 0;
+}
+.underline img {
+  vertical-align: bottom;
+}
+.underline span {
+  border-bottom: 1px solid #333;
+}
+.underline:hover span {
+  border-bottom-color: #000;
+}
+.manifesto {
+  box-sizing: border-box;
+  max-width: 700px;
+  padding: 50px 30px;
+  position: relative;
+  width: 100%;
+}
+@media (min-width: 480px) {
+  .manifesto {
+    padding: 50px 5%;
+  }
+}
+
+.brand,
+.contact {
+  display: inline-block;
+}
+.contact {
+  margin: 10px 0 0;
+}
